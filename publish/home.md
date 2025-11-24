@@ -1,7 +1,87 @@
 ---
-title: "An Extendable Obsidian Publish alternative using Next.JS"
-excerpt: "Create your own template or use someone else's. Changing the template is a matter of updating one line"
+title: Livrables du projet du jeu de la vie
+excerpt: Create your own template or use someone else's. Changing the template is a matter of updating one line
 ---
+
+ce projet sera réaliser sous deux livrables :
+- un premier contenant les differents diagramme necesaire a a réalisation du projet, ainsi que la repo github ainsi que tous ce qui est requis pour réalisé le projet.
+- Le deuxieme sera le code entier du jeux de la vie réalisé en c++
+
+Ce projet est structuré en [[#livrables|deux livrables principaux]], chacun contenant des éléments essentiels pour comprendre, concevoir et implémenter le Jeu de la Vie.
+
+---
+
+
+
+## Le Jeu de la Vie, c’est quoi ?
+
+Le Jeu de la Vie est un **automate cellulaire** créé par John Conway en 1970.  
+Il simule l’évolution d’une grille de cellules selon des règles simples :
+
+- Une cellule vivante avec 2 ou 3 voisines reste vivante
+- Une cellule morte avec exactement 3 voisines devient vivante
+- Sinon, elle meurt ou reste morte
+
+---
+
+## [[glider_exemple|Exemple visuel : Le Glider]]
+
+![[glider_exemple]]
+
+---
+
+# livrables
+
+## ![[livrable_1_embed|Livrable 1 — Analyse & Conception]]
+
+
+
+
+
+---
+
+## Livrable 2 — Implémentation complète en C++
+
+Ce livrable contient :
+- Le **code source complet** du Jeu de la Vie
+- Les fichiers `.cpp` et `.h`
+- Le moteur du jeu
+- L’affichage
+- Le programme principal
+- Les tests éventuels
+
+### Embed du Livrable 2
+![[livrable_2_main]]
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Publish your Obsidian Notes with a highly customizable Next.JS blog starter template. Features:
 - Supports most Obsidian syntax (e.g. Link Previews,  Links, etc.). Uses [obsidian-export](https://github.com/zoni/obsidian-export).
 - URLs are based on folder structure
